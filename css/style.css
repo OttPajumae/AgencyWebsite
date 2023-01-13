@@ -90,7 +90,7 @@ p {margin-bottom: 1rem;}
 h1, h2, h3, h4, h5 {
   margin: 3rem 0 1.38rem;
   font-family: 'Jost', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.3;
 }
 
@@ -114,6 +114,9 @@ a{
     text-decoration: none;
    
 }
+.m2{
+    padding: 4em 0 2em;
+}
 .wrapper{
    max-width: 1400px;
    margin: 0 auto;
@@ -129,6 +132,27 @@ a{
     display: flex;
    
 }
+.btn{
+    padding: 16px 32px;
+    color: #333;
+    border-radius: 30px;
+}
+.btn-primary{
+    background-color: #333;
+    color: white;
+    font-weight: 500;
+    line-height: 41px;
+    margin-right: 1em;
+}
+.btn-outline{
+    border: 2px solid rgb(22, 22, 22);
+    font-weight: 500;
+}
+.btn-play{
+    width: 40px;
+    height: 40px;
+    margin: 0 1em;
+}
 
 /*END OF GLOBAL*/
 /*MAIN*/
@@ -137,5 +161,38 @@ a{
 }
 nav a{
     margin: 0 1em;
+    color: #000000;
+}
+
+.hero{
+    background: linear-gradient(rgb(158, 31, 197),rgb(48, 189, 255));
+}
+.hero-copy{ /*See on hero jaoks, et nad oleks üksteise all*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.hero-copy h4{
+    display: flex;
+    align-items: center;
+}
+.hero-copy hr{
+    width: 20px;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+    height: 4px;
+    background-color: #333;
+}
+.image{    /*See on backgound kuju jaoks*/
+    height: 700px;
+    width: 700px;
+    -webkit-mask-image: url(/assets/blob.svg); 
+    mask-image: url(/assets/blob.svg);
+}
+.image-mask{ /*See on pilt mis sinna sisse läheb*/
+    background: url(/assets/Gal.jpg);
+    background-size: cover;
 }
 /*END OF MAIN*/
