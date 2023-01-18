@@ -117,6 +117,9 @@ a{
 .m2{
     padding: 4em 0 2em;
 }
+.m1 {
+  margin: 10px;
+}
 .wrapper{
    max-width: 1400px;
    margin: 0 auto;
@@ -127,6 +130,11 @@ a{
 }
 .x-bw{
     justify-content: space-between;
+}
+.x-bc{
+  margin-left: 3em;
+  padding: 7em;
+  
 }
 .d-flex{
     display: flex;
@@ -195,4 +203,51 @@ nav a{
     background: url(/assets/Gal.jpg);
     background-size: cover;
 }
+.kermit{
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 2px 3px 5px #333;
+  
+  
+  
+}
+.text{
+ 
+  margin-left: 10px;
+  margin-top: 20px;
+  line-height: 15px;
+  font-size: 100;
+}
+.box{
+  border-radius: 25px;
+  height: 150px;
+  width: 230px;
+  font-size: small;
+  
+  margin: 2em;
+  background-color: rgb(189, 150, 235);
+}
+.insert{
+  height: 30px;
+  width: 30px;
+}
+.date{
+  margin-top: 20px;
+}
+.image-kermit{
+  background: url(/assets/kermit.jpg);
+    background-size: cover;
+}
+.data{
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+.clo{
+  position: absolute;
+  margin-top: 10em;
+}
+
 /*END OF MAIN*/
