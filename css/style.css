@@ -85,7 +85,7 @@ body {
   color: #000000;
 }
 
-p {margin-bottom: 1rem;}
+p {margin-bottom: 1rem; font-size: 16px;}
 
 h1, h2, h3, h4, h5 {
   margin: 3rem 0 1.38rem;
@@ -162,6 +162,26 @@ a{
     margin: 0 1em;
 }
 
+.icn{
+  margin-top: 20px;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.txt{
+  text-align: center;
+  font-size: large  ;
+}
+.txt2{
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
 /*END OF GLOBAL*/
 /*MAIN*/
 #logo{
@@ -223,16 +243,17 @@ nav a{
 }
 .box{
   border-radius: 25px;
-  height: 150px;
-  width: 230px;
+  height: 170px;
+  width: 270px;
   font-size: small;
-  
+  box-shadow: 2px 3px 20px #333;
   margin: 2em;
   background-color: rgb(189, 150, 235);
 }
 .insert{
   height: 30px;
   width: 30px;
+  
 }
 .date{
   margin-top: 20px;
@@ -249,5 +270,80 @@ nav a{
   position: absolute;
   margin-top: 10em;
 }
+.board{
+  margin-top: 4em;
+}
+.icnC{
+  margin-top: 20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icnE{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 30px;
+}
 
+.center{
+  position: absolute;
+  margin-left: 70px;
+  margin-top: px;
+  padding: 0;
+  
+}
+.box2{
+  border-radius: 25px;
+  margin-left: 20em;
+  height: 400px;
+  width: 300px;
+  background-color: rgb(250, 184, 251);
+  position: absolute;
+}
+.box3{
+  border-radius: 25px;
+  margin-top: 27em;
+  margin-left: 14em;
+  height: 220px;
+  width: 400px;
+  background-color: rgb(250, 184, 251);
+  position: absolute;
+}
+.box4{
+  margin-left: 4em;
+  margin-top: 7em;
+  border-radius: 25px;
+  height: 250px;
+  width: 150px;
+  width: 230px;
+  font-size: small;
+  background-color: rgb(250, 184, 251);
+  position: absolute;
+}
+.circle {
+  background: magenta;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 20em;
+  margin-left: 5em;
+  opacity: 80%;
+  z-index: 0;
+}
+
+.start{
+  margin-top: 30px;
+}
+.inv{
+  margin-bottom: 70px;
+}
+.down{
+  position: absolute;
+  margin-left: 95px;
+}
 /*END OF MAIN*/
