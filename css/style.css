@@ -181,7 +181,15 @@ a{
   margin-top: 15px;
   margin-left: 30px;
 }
-
+.mar{
+  margin-top: 3em;
+}
+.rgt{
+  margin-left: 100px;
+}
+.lft{
+  margin-right: 100px;
+}
 /*END OF GLOBAL*/
 /*MAIN*/
 #logo{
@@ -193,7 +201,11 @@ nav a{
 }
 
 .hero{
-    background: linear-gradient(rgb(158, 31, 197),rgb(48, 189, 255));
+  background: rgb(241, 234, 234);
+    /*background: linear-gradient(rgb(158, 31, 197),rgb(48, 189, 255));*/
+}
+.footer{
+  background: rgb(233, 230, 230);
 }
 .hero-copy{ /*See on hero jaoks, et nad oleks üksteise all*/
     display: grid;
@@ -346,4 +358,34 @@ nav a{
   position: absolute;
   margin-left: 95px;
 }
+.cont{
+  margin-top: 1.7em;
+}
+.email{
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  border-radius: 25px;
+  text-align: left;
+}
+.etxt{
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.submit{
+  margin-left: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: #000000;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+}
+.stxt{
+  margin-top: 5px;
+}
+.end{
+  color: rgb(144, 144, 144);
+}
+
 /*END OF MAIN*/
